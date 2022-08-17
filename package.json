@@ -1,0 +1,23 @@
+{
+  "name": "@sexyicons/core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "Peter Ayeni",
+    "email": "ayenicology@gmail.com",
+    "url": "https://peterayeni.dev"
+  },
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "private": true
+}
