@@ -33,7 +33,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn commit",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
