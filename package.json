@@ -1,7 +1,7 @@
 {
   "name": "@sexyicons/core",
   "version": "0.0.0",
-  "description": "",
+  "description": "Sexy Icons Core",
   "main": "index.js",
   "author": {
     "name": "Peter Ayeni",
@@ -11,14 +11,22 @@
   "scripts": {
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
-    "publish": "yarn build && yarn lerna run publish"
+    "publish": "yarn build && yarn lerna run publish",
+    "commit": "yarn git-cz"
   },
   "devDependencies": {
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^5.4.0"
   },
   "workspaces": [
     "packages/*",
     "examples/*"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "private": true
 }
