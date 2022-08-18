@@ -12,7 +12,7 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "publish": "yarn build && yarn lerna run publish",
-    "commit": "yarn git-cz",
+    "commit": "cz",
     "prepare": "husky install"
   },
   "devDependencies": {
