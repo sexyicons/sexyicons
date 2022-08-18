@@ -3,7 +3,7 @@ import { Hello } from '@sexyicons/react';
 const Home = () => {
   return (
     <>
-      <div>Home</div>;
+      <div>Home</div>
       <Hello />
     </>
   );
