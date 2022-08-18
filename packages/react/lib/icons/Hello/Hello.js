@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hello = () => {
-    return React.createElement("div", null, "Hello");
+    return React.createElement("div", null, "Hello Sexy Icons");
 };
 
 export { Hello as default };
