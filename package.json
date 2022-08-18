@@ -15,8 +15,11 @@
     "commit": "yarn git-cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
     "lerna": "^5.4.0"
   },
   "workspaces": [
@@ -26,6 +29,12 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn commit",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "private": true
