@@ -7,7 +7,18 @@
     "lib"
   ],
   "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-a11y": "^6.5.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.17",
+    "babel-loader": "^8.2.5",
     "react": "^18.2.0",
     "rollup": "^2.78.0",
     "rollup-plugin-typescript2": "^0.32.1",
@@ -15,9 +26,12 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {}
 }
