@@ -1,2 +1,2 @@
-export { default as Hello } from './icons/Hello/Hello.js';
+export { default as ChevronLeft } from './icons/ChevronLeft.js';
 //# sourceMappingURL=index.js.map

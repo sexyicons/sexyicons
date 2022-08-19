@@ -8,7 +8,7 @@ const Home = lazy(() => import('./views/home/Home'));
 function App() {
   return (
     <div className={style.app}>
-      <h1>Welcome to the Enterprise Boilerplate</h1>
+      <h1>Sexy Icons v1</h1>
       <nav className={style.nav}>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>

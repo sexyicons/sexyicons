@@ -1,2 +1,1 @@
-import { Hello } from "./icons/Hello";
-export { Hello };
+export { default as ChevronLeft } from "./icons/ChevronLeft";
