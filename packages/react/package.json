@@ -1,6 +1,6 @@
 {
   "name": "@sexyicons/react",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
@@ -32,6 +32,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {}
+  }
 }
