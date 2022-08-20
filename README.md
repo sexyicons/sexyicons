@@ -10,7 +10,7 @@
 
 ## Based on Community version of [Sexyicons](https://sexyicons.webflow.io/) design by [Tolu Arowoselu](https://www.linkedin.com/in/a4aros/)
 
-🌐 [Website](linktostorybook)
+🌐 [Website](https://sexyicons-storybook.vercel.app/)
 
 ### Sets
 

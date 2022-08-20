@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/sexyicons/sexyicons"
   },
-  "homepage": "https://github.com/sexyicons/sexyicons",
+  "homepage": "https://sexyicons-storybook.vercel.app/",
   "bugs": {
     "url": "https://github.com/sexyicons/sexyicons/issues"
   },
