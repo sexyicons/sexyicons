@@ -1,0 +1,6 @@
+61 error Error: Command failed with exit code 128: git tag v0.2.0 -m v0.2.0
+61 error fatal: tag 'v0.2.0' already exists
+61 error     at makeError (/Users/peterayeni/Desktop/sexyicons/node_modules/execa/lib/error.js:60:11)
+61 error     at handlePromise (/Users/peterayeni/Desktop/sexyicons/node_modules/execa/index.js:118:26)
+61 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+61 error     at async Promise.all (index 0)
