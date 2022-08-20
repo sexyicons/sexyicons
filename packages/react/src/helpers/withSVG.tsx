@@ -1,6 +1,6 @@
 import React from "react";
 
-export type Set = "lineal" | "lines" | "solid" | "bulk";
+export type Set = "lineal" | "line" | "solid" | "bulk";
 
 export interface SVGProps {
   color?: string;
@@ -9,15 +9,23 @@ export interface SVGProps {
   label?: string;
   style?: React.CSSProperties;
   filled?: boolean;
+  secondaryColor?: string;
+}
+
+export interface IconProps {
+  color?: string;
+  set: Set;
+  secondaryColor?: string;
 }
 
 export const withSVG = (Component: React.FC<any>) => {
   return React.forwardRef<SVGSVGElement, SVGProps>(
     (
       {
-        color = "currentColor",
+        color = "#152C70",
+        secondaryColor = "#4296FF",
         size = 24,
-        set = "lines",
+        set = "line",
         style,
         label,
         filled = false,
@@ -38,7 +46,11 @@ export const withSVG = (Component: React.FC<any>) => {
           role={label ? "img" : "presentation"}
           {...props}
         >
-          <Component color={color} set={filled ? "bold" : set} />
+          <Component
+            color={color}
+            set={filled ? "bold" : set}
+            secondaryColor={secondaryColor}
+          />
         </svg>
       );
     }

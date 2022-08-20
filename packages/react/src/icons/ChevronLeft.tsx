@@ -8,9 +8,9 @@ export interface IconProps {
 
 export const ChevronLeft: React.FC<IconProps> = ({
   color = "currentColor",
-  set = "lines",
+  set = "line",
 }) => {
-  const Lines = () => (
+  const Line = () => (
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
@@ -53,7 +53,7 @@ export const ChevronLeft: React.FC<IconProps> = ({
     case "bulk":
       return <Bulk />;
     default:
-      return <Lines />;
+      return <Line />;
   }
 };
 

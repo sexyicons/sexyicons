@@ -1,8 +1,29 @@
 {
   "name": "@sexyicons/react",
   "version": "0.1.0",
+  "description": "React components for sexy icons: Icons speak louder than words",
   "main": "lib/index.js",
+  "author": {
+    "name": "Peter Ayeni"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sexyicons/sexyicons"
+  },
+  "homepage": "https://github.com/sexyicons/sexyicons",
+  "bugs": {
+    "url": "https://github.com/sexyicons/sexyicons/issues"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "sexyicons",
+    "svg",
+    "react-icons",
+    "react-icons-kit",
+    "design"
+  ],
   "files": [
     "lib"
   ],
