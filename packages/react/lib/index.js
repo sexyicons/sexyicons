@@ -1,2 +1,21 @@
 export { default as ChevronLeft } from './icons/ChevronLeft.js';
+export { default as ChevronRight } from './icons/ChevronRight.js';
+export { default as ChevronUp } from './icons/ChevronUp.js';
+export { default as ChevronDown } from './icons/ChevronDown.js';
+export { default as House } from './icons/House.js';
+export { default as Sofa } from './icons/Sofa.js';
+export { default as Bank } from './icons/Bank.js';
+export { default as Chat } from './icons/Chat.js';
+export { default as Attachment } from './icons/Attachment.js';
+export { default as Umbrella } from './icons/Umbrella.js';
+export { default as Alert } from './icons/Alert.js';
+export { default as Bluetooth } from './icons/Bluetooth.js';
+export { default as Bookmark } from './icons/Bookmark.js';
+export { default as Bullhorn } from './icons/Bullhorn.js';
+export { default as Camera } from './icons/Camera.js';
+export { default as Cart } from './icons/Cart.js';
+export { default as Glass } from './icons/Glass.js';
+export { default as Clock } from './icons/Clock.js';
+export { default as Coffee } from './icons/Coffee.js';
+export { default as Edit } from './icons/Edit.js';
 //# sourceMappingURL=index.js.map
