@@ -1,11 +1,11 @@
 import React from "react";
-import { ChevronLeft } from "@sexyicons/react";
+import { Cart } from "@sexyicons/react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { withA11y } from "@storybook/addon-a11y";
 
 export default {
-  title: "Icons/ChevronLeft",
-  component: ChevronLeft,
+  title: "Icons/Cart",
+  component: Cart,
 
   argTypes: {
     set: {
@@ -33,12 +33,10 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof ChevronLeft>;
+} as ComponentMeta<typeof Cart>;
 
-ChevronLeft.displayName = "ChevronLeft";
-const Template: ComponentStory<typeof ChevronLeft> = (args) => (
-  <ChevronLeft {...args} />
-);
+Cart.displayName = "Cart";
+const Template: ComponentStory<typeof Cart> = (args) => <Cart {...args} />;
 
 export const Lines = Template.bind({});
 Lines.args = {
