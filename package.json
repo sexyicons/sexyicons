@@ -13,7 +13,8 @@
     "dev": "yarn lerna run dev",
     "publish": "yarn build && yarn lerna run publish",
     "commit": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:storybook": "yarn build && yarn lerna run build-storybook"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
