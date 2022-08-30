@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/sexyicons/sexyicons/compare/v0.3.0...v0.4.0) (2022-08-30)
+
+
+### Features
+
+* **icons:** added new icons ([7cf73f3](https://github.com/sexyicons/sexyicons/commit/7cf73f3bb9af051afaa8db13e5fa6c5ed235f9fb))
+
+
+
+
+
 # [0.3.0](https://github.com/sexyicons/sexyicons/compare/v0.1.0...v0.3.0) (2022-08-20)
 
 
