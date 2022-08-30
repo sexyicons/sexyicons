@@ -8,6 +8,9 @@
 
 **Sexyicons** are designed with a custom keyline and design principles unique to its concept to ensure the consistent look of big, bold, curvy and sexy looking icons.
 
+![screenshot-127 0 0 1_5173-2022 08 30-21_20_10](https://user-images.githubusercontent.com/2202744/187536050-ad87c0ed-a8fd-4f20-bd17-7b47a81f7e62.png)
+
+
 ## Based on Community version of [Sexyicons](https://sexyicons.webflow.io/) design by [Tolu Arowoselu](https://www.linkedin.com/in/a4aros/)
 
 🌐 [Website](https://sexyicons-storybook.vercel.app/)
