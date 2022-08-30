@@ -8,4 +8,43 @@
 .nav {
   display: flex;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+p {
+  color: gray;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.iconsection {
+  display: 'flex';
+  flex-direction: 'column';
+}
+
+.icongroup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #eee;
 }

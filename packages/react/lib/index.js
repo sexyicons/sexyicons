@@ -18,4 +18,14 @@ export { default as Glass } from './icons/Glass.js';
 export { default as Clock } from './icons/Clock.js';
 export { default as Coffee } from './icons/Coffee.js';
 export { default as Edit } from './icons/Edit.js';
+export { default as Envelope } from './icons/Envelope.js';
+export { default as Calendar } from './icons/Calendar.js';
+export { default as Eye } from './icons/Eye.js';
+export { default as Aid } from './icons/Aid.js';
+export { default as Gift } from './icons/Gift.js';
+export { default as HeartBreak } from './icons/HeartBreak.js';
+export { default as Heart } from './icons/Heart.js';
+export { default as Image } from './icons/Image.js';
+export { default as Inbox } from './icons/Inbox.js';
+export { default as Laptop } from './icons/Laptop.js';
 //# sourceMappingURL=index.js.map
